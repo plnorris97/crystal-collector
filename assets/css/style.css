@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    color: red;
+    padding: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#instructions {
+    background-color: lightslategray;
+    margin: 10px;
+    padding: 10px;
+}
+
+#score {
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+img {
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+#random-score {
+    background: green;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+
+#your-score {
+    background: yellow;
+    margin: 10px;
+    padding: 10px; 
+    width: 500px;
+    height: auto; 
+}
