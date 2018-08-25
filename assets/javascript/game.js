@@ -18,6 +18,19 @@ function startGame() {
     losses = "";
     totalScore = [];
 
+
+    $("#goal-score").html("Goal Score: " + goalScore);
+    $("#wins").html("Wins: " + wins);
+    $("#losses").html("Losses: " + losses);
+   
+}
+
+function playAgain() {
+    goalScore=Math.floor(Math.random()*(120-19)+19);
+    $("#goal-score").html("Goal Score: " + goalScore);
+    totalScore = []
+    $("#your-score").text("Total Score:");
+
     $("#goal-score").html("Goal Score: " + goalScore);
     $("#wins").html("Wins: " + wins);
     $("#losses").html("Losses: " + losses);
@@ -26,6 +39,11 @@ function startGame() {
 
 function clearArray() {
     totalScore = [];
+
+    var totalScoreNew = totalScore;
+    for (var i = totalScore.length; i > 0; i--) {
+        totalScore.pop();
+       }
 }
 
 function winner() {
@@ -95,16 +113,14 @@ $("button").val(redValue, blueValue, greenValue, yellowValue)
 $("#play-again").click(function() {
     console.log("let's play");
     clearArray();
-    
-    var totalScoreNew = totalScore;
-    for (var i = totalScore.length; i > 0; i--) {
-        totalScore.pop();
-       }
-    
+
+    playAgain();
     $("your-score").html("Your score: " + totalScoreNew);
-    
-    startGame();
 });
+
+
+$("wins").html("Wins: " + wins);
+$("losses").html("Losses: " + losses);
 
 });
 
