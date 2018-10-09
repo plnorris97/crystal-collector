@@ -1,8 +1,7 @@
 CrystalCollector
 
-Please Note: This game was created using Javascript and jQuery. Assets are stored in their respective folders.
 
-THE GAME: 
+THE GAME AND INSTRUCTIONS: 
 
 You are a hunter of fine crystals and jewels. 
 
@@ -23,3 +22,8 @@ If you choose to play a new game, click the Play Again button. Your win and loss
 So, you can play forever and collect as many crystals as possible!
 
 Good luck and have fun!
+
+
+DEVELOPER INFORMATION:
+
+The CrystalCollector Game App was created by Tricia Norris. You may contact me via email (tricianorris97@gmail.com).
